@@ -5,7 +5,7 @@ elsif int % 5 == 0
   "Buzz"
 elsif int % 3 && 5 == 0
   "fizzbuzz"
-else
-  "nil"
+else int !% 3 || int !% 5
+  "IDK"
   end
 end
